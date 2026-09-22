@@ -1,4 +1,4 @@
-# 🚀 Full-Stack Real-Time Chat Application: Complete Interview Preparation Guide
+﻿# 🚀 Full-Stack Real-Time Chat Application: Complete Interview Preparation Guide
 
 This guide covers in-depth technical explanations and interview answers for the Real-Time Chat Application built with **Spring Boot 3, WebSocket (STOMP), Spring Security (JWT), Spring Data JPA, and React/Vite**.
 
@@ -105,12 +105,12 @@ This guide covers in-depth technical explanations and interview answers for the 
    config.setUserDestinationPrefix("/user");
    ```
 2. **Client Subscription**:
-   When User A ("Jasmeet") connects, they subscribe to their unique queue:
+   When User A ("Harshit") connects, they subscribe to their unique queue:
    ```javascript
    stompClient.subscribe(`/user/${currentUsername}/queue/private`, onMessageReceived);
    ```
 3. **Message Transmission**:
-   When User A sends a private message to User B ("Rahul"), they send a frame to `/app/chat.sendPrivateMessage`.
+   When User A sends a private message to User B ("Amit"), they send a frame to `/app/chat.sendPrivateMessage`.
 4. **Server Routing in `ChatController.java`**:
 
    ```java

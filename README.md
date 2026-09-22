@@ -1,4 +1,4 @@
-# Real-Time Chat Application
+﻿# Real-Time Chat Application
 
 A full-stack, real-time messaging application built with **Spring Boot** (Java 21) on the backend and **React + Vite** on the frontend. The application supports real-time public group messaging, direct one-on-one private messaging, user online status tracking, and secure JWT-based authentication stored in HTTP-only cookies.
 
@@ -88,7 +88,7 @@ realtimechatapp/
 │
 ├── src/                            # Spring Boot Backend Application
 │   └── main/
-│       ├── java/com/jasmeet/realtimechatapp/
+│       ├── java/com/harshit/realtimechatapp/
 │       │   ├── config/             # SecurityConfig, WebSocketConfig
 │       │   ├── controller/         # AuthController, ChatController, MessageController, UserController
 │       │   ├── dtos/               # DTOs (LoginRequestDTO, RegisterRequestDTO, UserDTO, etc.)
